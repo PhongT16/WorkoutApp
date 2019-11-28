@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, chest.class);
             startActivity(intent);
         });
+
+        // comment
     }
 }
