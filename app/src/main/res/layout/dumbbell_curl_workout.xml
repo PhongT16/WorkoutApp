@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dumbbellCurlTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+
+        android:text="Dumbbell Curl" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <TextView
+        android:id="@+id/dumbbellCurlDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hold the dumbbells at your sides with your palms facing forwards. Bend at the elbow to curl the weights up to your chest. Don’t lean back and don’t swing the dumbbells as you’re using momentum to lift rather than your muscles. Correct that by fixing your elbows to your sides and keeping your upper arms still throughout the rep." />
+</LinearLayout>

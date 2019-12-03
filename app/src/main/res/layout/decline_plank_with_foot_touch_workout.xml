@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/declinePlankWithFootTouchTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+
+        android:text="Decline Plank With Foot Touch " />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/declinePlankWithFootTouchDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get into a decline plank position, supporting yourself on your forearms with your feet raised on a bench. Your body should form a straight line from heels to head and the aim is to maintain that position throughout the exercise. Lift one foot off the bench and move it to the side to touch the floor, then return it to the bench. Continue, alternating sides." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

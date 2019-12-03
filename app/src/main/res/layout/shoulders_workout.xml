@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chestWorkoutTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Shoulder Workouts" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/barbellShoulderPressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barbell Shoulder Press" />
+
+            <Button
+                android:id="@+id/dumbbellShoulderPressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Shoulder Press" />
+
+            <Button
+                android:id="@+id/machineShoulderPressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Machine Shoulder Press" />
+
+            <Button
+                android:id="@+id/kettlebellPressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kettlebell Press" />
+
+            <Button
+                android:id="@+id/dumbbellRaiseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Raise" />
+
+            <Button
+                android:id="@+id/dumbbellReverseFlyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Reverse Fly" />
+
+            <Button
+                android:id="@+id/reverseCableFlyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reverse Cable Fly" />
+
+            <Button
+                android:id="@+id/barbellHighPullButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barbell High Pull" />
+
+            <Button
+                android:id="@+id/cableRotationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cable Rotation" />
+
+            <Button
+                android:id="@+id/facePullButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Face Pull" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

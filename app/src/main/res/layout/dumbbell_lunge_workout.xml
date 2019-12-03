@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dumbbellLungeTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Dumbbell Lunge" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dumbbellLungeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stand tall, holding a dumbbell in each hand. With your chest up and core braced, take a big step forwards with your left leg and lunge down until both knees are bent at 90°. Push off your front foot to return to the start, then repeat with your right leg. Alternate your leading leg with each rep." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

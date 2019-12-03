@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/modifiedVsitTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Modified V-sit" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/modifiedVsitDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lie with your legs raised off the floor and extended away from you so they’re parallel with the floor, and your arms straight by your sides, held off the floor. Keep your arms straight as you raise your torso and bring your legs in, bending at the knees, so that your chest meets your knees at the top of the move. Then lower under control." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

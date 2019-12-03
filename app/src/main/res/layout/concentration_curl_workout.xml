@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/concentrationCurlTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+
+        android:text="Concentration Curl" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/concentrationCurlDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sit on a bench that’s set at a height so your knees are bent at 90° with your feet flat on the floor. Pick up a dumbbell in your right hand and place the back of your upper right arm on the inner part of your right thigh. Your arm should be extended holding the weight off the floor. Slowly curl the weight up, only moving your forearms – the position of your upper arm on your thigh will help you keep it still during the exercise. At the top of the move, pause for a beat and squeeze your biceps, then slowly lower the weight back to the start. Do all your reps on one arm, then switch to the other.  " />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

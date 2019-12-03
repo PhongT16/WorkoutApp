@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/machineShoulderWorkoutTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Machine Shoulder Workout" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/machineShoulderWorkoutDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Sit down on the Shoulder Press Machine and select the weight. 2.	Grab the handles to your sides as you keep the elbows bent and in line with your torso. This will be your starting position. 3.	Now lift the handles as you exhale and you extend the arms fully. At the top of the position make sure that you hold the contraction for a second. 4.	Lower the handles slowly back to the starting position as you inhale. 5.	Repeat for the recommended amount of repetitions. " />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

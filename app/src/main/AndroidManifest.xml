@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.workoutapp">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,6 +19,65 @@
             </intent-filter>
         </activity>
         <activity android:name=".chest" />
+        <activity android:name=".benchPress" />
+        <activity android:name=".dumbellBenchPress"/>
+        <activity android:name=".chestPress"/>
+        <activity android:name=".dumbBellFly"/>
+        <activity android:name=".cableCrossover"/>
+        <activity android:name=".dip"/>
+
+        <activity android:name=".shoulders"/>
+        <activity android:name=".BarbellShoulderPress"/>
+        <activity android:name=".DumbbellShoulderPress"/>
+        <activity android:name=".MachineShoulderPress"/>
+        <activity android:name=".KettlebellPress"/>
+        <activity android:name="DumbbellRaise"/>
+        <activity android:name=".DumbbellReverseFly"/>
+        <activity android:name=".ReverseCableFly"/>
+        <activity android:name=".BarbellHighPull"/>
+        <activity android:name=".CableRotation"/>
+        <activity android:name=".FacePull"/>
+
+        <activity android:name=".Biceps"/>
+        <activity android:name=".DumbbellCurl"/>
+        <activity android:name=".SeatedDumbbellBicepCurls"/>
+        <activity android:name=".BarbellCurls"/>
+        <activity android:name=".ConcentrationCurl"/>
+        <activity android:name="HammerCurl"/>
+        <activity android:name=".PreacherCurl"/>
+        <activity android:name=".CableCurl"/>
+        <activity android:name=".ChinUp"/>
+
+        <activity android:name=".Forearm"/>
+        <activity android:name="CableWristCurl"/>
+
+        <activity android:name=".Abs"/>
+        <activity android:name=".DumbbellCrunch"/>
+        <activity android:name=".TuckAndCrunch"/>
+        <activity android:name=".ModifiedVsit"/>
+        <activity android:name=".Crunch"/>
+        <activity android:name=".HangingLegRaise"/>
+        <activity android:name=".HangingKneeRaiseTwist"/>
+        <activity android:name=".HangingKneeRaise"/>
+        <activity android:name=".GarhammerRaise"/>
+        <activity android:name=".DeclinePlankFootTouch"/>
+        <activity android:name=".SeatedRussianTwist"/>
+        <activity android:name=".BicycleCrunch"/>
+        <activity android:name=".Plank"/>
+
+        <activity android:name=".Quads"/>
+        <activity android:name="BarbellSquat"/>
+        <activity android:name=".FrontSquat"/>
+        <activity android:name=".BoxSquat"/>
+        <activity android:name=".Deadlift"/>
+        <activity android:name=".LegPress"/>
+        <activity android:name=".HamstringCurl"/>
+        <activity android:name=".SeatedLegExtension"/>
+        <activity android:name=".DumbbellLunge"/>
+        <activity android:name=".DumbbellSquat"/>
+
+        <activity android:name=".Hamstring"/>
+
     </application>
 
 </manifest>

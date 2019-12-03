@@ -4,14 +4,13 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/chestList"
+        android:id="@+id/bicepsWorkout"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="#00C93232"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="32dp"
 
-        android:text="Chest Workout" />
+        android:text="Bicep Workouts" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,40 +22,52 @@
             android:orientation="vertical" >
 
             <Button
-                android:id="@+id/benchPressButton"
+                android:id="@+id/dumbbellCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bench Press" />
+                android:text="Dumbbell Curl" />
 
             <Button
-                android:id="@+id/dumbellBenchPressButton"
+                android:id="@+id/seatedBicepCurlsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dumbbell Bench Press" />
+                android:text="Seated Incline Dumbbell Bicep Curls" />
 
             <Button
-                android:id="@+id/chestPressButton"
+                android:id="@+id/barbellCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Chest Press Machine" />
+                android:text="Barbell Curl" />
 
             <Button
-                android:id="@+id/dumbBellFLyButton"
+                android:id="@+id/concentrationCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dumbell Fly" />
+                android:text="Concentration Curl" />
 
             <Button
-                android:id="@+id/cableCrossoverButton"
+                android:id="@+id/hammerCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cable Crossover" />
+                android:text="Hammer Curl" />
 
             <Button
-                android:id="@+id/dipButton"
+                android:id="@+id/preacherCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dip" />
+                android:text="Preacher Curl" />
+
+            <Button
+                android:id="@+id/cableCurlButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cable Curl" />
+
+            <Button
+                android:id="@+id/chinUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chin Up" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

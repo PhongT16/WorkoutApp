@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bicycleCrunchTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+
+        android:text="Bicycle Crunch" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/BicycleCrunchDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lie on your back with your hands by your temples and your legs raised with your knees bent at a 90° angle. Bring your right knee up towards your chest while raising your torso and twisting so your left elbow comes to meet your knee. Then lower and do the same on the opposite side. Keep your shoulders and feet off the ground to force your abs to work hard to stabilize your torso." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

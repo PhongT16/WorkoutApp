@@ -4,14 +4,11 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/chestList"
+        android:id="@+id/quadWorkout"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="#00C93232"
-        android:gravity="center"
+        android:layout_height="wrap_content"
         android:textSize="32dp"
-
-        android:text="Chest Workout" />
+        android:text="Quad Workouts" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,40 +20,58 @@
             android:orientation="vertical" >
 
             <Button
-                android:id="@+id/benchPressButton"
+                android:id="@+id/barbellSquatButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bench Press" />
+                android:text="Barbell Squat" />
 
             <Button
-                android:id="@+id/dumbellBenchPressButton"
+                android:id="@+id/frontSquatButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dumbbell Bench Press" />
+                android:text="Front Squat" />
 
             <Button
-                android:id="@+id/chestPressButton"
+                android:id="@+id/boxSquatButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Chest Press Machine" />
+                android:text="Box Squat" />
 
             <Button
-                android:id="@+id/dumbBellFLyButton"
+                android:id="@+id/deadliftButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dumbell Fly" />
+                android:text="Deadlift" />
 
             <Button
-                android:id="@+id/cableCrossoverButton"
+                android:id="@+id/legPressButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cable Crossover" />
+                android:text="Leg Press" />
 
             <Button
-                android:id="@+id/dipButton"
+                android:id="@+id/hamstringCurlButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dip" />
+                android:text="Hamstring curl" />
+
+            <Button
+                android:id="@+id/seatedLegExtensionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seated leg extension" />
+
+            <Button
+                android:id="@+id/dumbbellLungeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Lunge" />
+
+            <Button
+                android:id="@+id/dumbbellSquatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dumbbell Squat" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

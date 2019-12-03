@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/barbellHighPullTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Barbell High Pull" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/barbellHighPullDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stand with feet shoulder-width apart, holding the barbell just in front of your shins. Your grip placement should fall about a hand’s width outside of each leg. Keeping your glutes and abs engaged, pull the bar upwards in one controlled movement, keeping it close to your body. As the bar rises, shrug your shoulders to pull the bar as high as possible. Slowly lower back to the start position. " />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/preacherCurlTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Preacher Curl" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/preacherCurlDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sit on the preacher bench and adjust the height so your armpits are just touching the top of the sloped section. Hold the weight using an underhand grip (palms facing up) with your arms extended and your upper arms resting on the bench. Curl the weight up, keeping your upper arms on the bench, until your forearms are vertical. Pause for a second at the top of the curl, then slowly lower the weight until your arms are fully extended once again. Count for three beats as you lower. Make sure your feet are planted on the ground, and that your torso and shoulders stay still throughout the movement." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

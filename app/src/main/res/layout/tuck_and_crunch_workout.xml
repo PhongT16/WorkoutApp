@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tuckAndCrunchTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Tuck and Crunch" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tuckAndCrunchDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lie down with your hands by your head and your legs raised with your knees bent at a 90° angle. Simultaneously raise your torso and draw your knees towards your chest. Keep your fingers by your temples throughout and initiate each rep smoothly without jerking your torso up. Don’t let your feet touch the floor between reps." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

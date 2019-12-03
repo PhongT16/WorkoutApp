@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/barbellSquatTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Barbell Squat" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/barbellSquatDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take the bar out of the rack with it resting on your rear shoulder muscles. Take two big steps back and stand with your feet roughly shoulder-width apart, toes pointing slightly out. Keep your spine in alignment by looking at a spot on the floor about two metres in front of you, then “sit” back and down as if you’re aiming for a chair. Descend until your hip crease is below your knee. Keep your weight on your heels as you drive back up." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

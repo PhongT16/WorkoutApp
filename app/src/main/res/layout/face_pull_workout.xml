@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/facePullTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Face Pull" />
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/facePullDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set up a cable machine with a double-rope attachment fixed to the high pulley. Grasp the handle in an overhand grip (palms facing the floor) and hold it with your arms fully extended out in front of you. Pull the handles towards you, keeping your upper arms parallel to the floor, so that the handles go either side of your face. Then return to the starting position, keeping the tension in the cable. Keep your movements slow and controlled throughout the exercise." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
