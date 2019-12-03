@@ -36,6 +36,7 @@
                 android:id="@+id/dumbbellRaiseDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Lateral: Stand or sit with a dumbbell in each hand at your sides. Keep your back straight, brace your core, and then slowly lift the weights out to the side until your arms are parallel with the floor, with the elbow slightly bent. Then lower them back down, again in measured fashion – you’ll find it all the harder if you avoid speeding up. A lot of people will cheat by “shrugging” the weights up using their traps. Resist the urge to do that by not raising your shoulder blades during the rep – instead focus on the delts. Front: Begin by holding both dumbbells of equal weight in front of your thighs with your palms facing your body (a pronated grip). Keeping your back straight and feet shoulder-width apart, lift the dumbbells in front of you in a controlled manner until your hands are in line with your shoulders. Pause, then slowly lower back to the starting position. " />
         </LinearLayout>
     </ScrollView>

@@ -37,6 +37,7 @@
                 android:id="@+id/declinePlankWithFootTouchDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Get into a decline plank position, supporting yourself on your forearms with your feet raised on a bench. Your body should form a straight line from heels to head and the aim is to maintain that position throughout the exercise. Lift one foot off the bench and move it to the side to touch the floor, then return it to the bench. Continue, alternating sides." />
         </LinearLayout>
     </ScrollView>

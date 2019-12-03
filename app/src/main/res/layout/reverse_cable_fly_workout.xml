@@ -36,6 +36,7 @@
                 android:id="@+id/reverseCableFlyDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Adjust the pulleys to the appropriate height and adjust the weight.
                 The pulleys should be above your head. 2.	Grab the left pulley with your right hand
                 and the right pulley with your left hand, crossing them in front of you. This will be

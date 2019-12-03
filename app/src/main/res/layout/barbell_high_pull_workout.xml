@@ -36,6 +36,7 @@
                 android:id="@+id/barbellHighPullDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand with feet shoulder-width apart, holding the barbell just in front of your shins. Your grip placement should fall about a hand’s width outside of each leg. Keeping your glutes and abs engaged, pull the bar upwards in one controlled movement, keeping it close to your body. As the bar rises, shrug your shoulders to pull the bar as high as possible. Slowly lower back to the start position. " />
         </LinearLayout>
     </ScrollView>

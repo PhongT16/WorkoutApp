@@ -36,6 +36,7 @@
                 android:id="@+id/legPressDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Sit in the machine positioned correctly according to the instructions. Place your feet lower and closer together to work your quads more, or higher and wider to hit your hamstrings and glutes more directly. Bend your knees to bring them towards your chest, then press back to the start." />
         </LinearLayout>
     </ScrollView>

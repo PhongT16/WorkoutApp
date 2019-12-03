@@ -36,6 +36,7 @@
                 android:id="@+id/tuckAndCrunchDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Lie down with your hands by your head and your legs raised with your knees bent at a 90° angle. Simultaneously raise your torso and draw your knees towards your chest. Keep your fingers by your temples throughout and initiate each rep smoothly without jerking your torso up. Don’t let your feet touch the floor between reps." />
         </LinearLayout>
     </ScrollView>

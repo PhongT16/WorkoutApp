@@ -36,6 +36,7 @@
                 android:id="@+id/seatedRussianTwistDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Sit on the floor with your knees bent and heels on the ground. Your torso should be at the top of the crunch position, forming a 45° angle to the ground. Twist your torso from side to side, moving in a smooth and controlled manner." />
         </LinearLayout>
     </ScrollView>

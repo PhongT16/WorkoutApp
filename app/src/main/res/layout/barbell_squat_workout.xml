@@ -36,6 +36,7 @@
                 android:id="@+id/barbellSquatDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Take the bar out of the rack with it resting on your rear shoulder muscles. Take two big steps back and stand with your feet roughly shoulder-width apart, toes pointing slightly out. Keep your spine in alignment by looking at a spot on the floor about two metres in front of you, then “sit” back and down as if you’re aiming for a chair. Descend until your hip crease is below your knee. Keep your weight on your heels as you drive back up." />
         </LinearLayout>
     </ScrollView>

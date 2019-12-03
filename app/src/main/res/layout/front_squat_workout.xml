@@ -36,6 +36,7 @@
                 android:id="@+id/frontSquatDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="The Set-up Start with the bar secure in the squat rack, level with the middle of your chest. Hold the bar with hands just wider than shoulder-width apart. Step in close to the bar and lower into a quarter squat so the bar is level and touching the top of your chest and front of your shoulders. Without letting go of the bar, bring your elbows forwards and up as high as you can manage. Focus on keeping your elbows as high as possible throughout the squat – this will keep your body upright and the bar secure in the crook of your hands and resting against your chest and shoulders. Drive up to take the bar out of the rack. The Move Take one step backwards. Position your feet shoulder-width apart, with your toes pointing very slightly diagonally away from each other. Brace yourself, take a deep breath in to fill your chest and keep your torso strong, then bend your legs to lower into a squat. Keep your knees wide apart and heels down. Lower until your legs are at least parallel with the floor, then drive back up to stand. That’s perfect form. If you’re struggling, here are some ways to improve. " />
         </LinearLayout>
     </ScrollView>

@@ -37,6 +37,7 @@
                 android:id="@+id/descriptionDBP"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:padding="15dp"
                 android:text="Lie back on a bench holding a dumbbell in each hand just to the sides of your shoulders. Your palms should be facing towards your feet in the starting position, although if you have shoulder issues then switch to a neutral grip, where the palms face each other.  Press the weights above your chest by extending your elbows until your arms are straight, then bring the weights back down slowly. To take advantage of the range of movement offered by using dumbbells rather than a barbell, take the weights down past your shoulders and bring them closer together at the top of the movement. Don’t touch them at the top, though, because that will take some of the strain off your muscles. Incline: Set up a bench at an incline of 30-45° and sit with your feet flat on the floor and your back on the bench. Lift the dumbbells to chest height with your palms facing forwards. Breathe out and push the dumbbells up until your arms are fully extended, using your pecs to power the movement. Don’t let the dumbbells touch. Pause for a second at the top, then slowly bring them back down as you inhale. " />
 
         </LinearLayout>

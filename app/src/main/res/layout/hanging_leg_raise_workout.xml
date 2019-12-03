@@ -36,6 +36,7 @@
                 android:id="@+id/hangingLegRaiseDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Fair warning, this tough exercise sets the tone for what is going to be a brutal workout involving four different hanging exercises. Start in a dead hang with your legs straight and your knees and ankles touching. Keep them together as your use your lower abs to raise them, then lower back to the start under control." />
         </LinearLayout>
     </ScrollView>

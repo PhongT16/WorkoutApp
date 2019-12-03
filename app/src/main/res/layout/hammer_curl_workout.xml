@@ -36,6 +36,7 @@
                 android:id="@+id/hammerCurlDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand with your feet shoulder-width apart and a slight bend in your knees. Hold a pair of dumbbells in your hands with your palms facing towards your body – this is the main difference from the standard curl, which you start with your palms facing forwards. Keeping your elbows close to your body, slowly curl the dumbbell up to your shoulders. Pause for a second at the top of the lift, squeeze your biceps, then lower the weights under control." />
         </LinearLayout>
     </ScrollView>

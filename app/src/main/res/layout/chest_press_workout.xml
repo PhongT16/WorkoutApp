@@ -37,6 +37,7 @@
                 android:id="@+id/chestPressDescription"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
+                android:padding="15dp"
                 android:text="Grab the handles with a full grip and lift your elbows so that your arms are straight, extended and parallel to the floor. Exhale and push the handles away as you flex your chest. Breathe in and slowly bring the handles towards you." />
         </LinearLayout>
     </ScrollView>

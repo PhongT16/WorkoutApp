@@ -36,6 +36,7 @@
                 android:id="@+id/dumbellSquatDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand tall, holding a dumbbell in each hand. With your chest up and core braced, bend at your hips and knees to squat down as deep as you can without rounding your back. Push down through your heels to stand back up and return to the start position." />
         </LinearLayout>
     </ScrollView>

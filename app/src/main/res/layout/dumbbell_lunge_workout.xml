@@ -36,6 +36,7 @@
                 android:id="@+id/dumbbellLungeDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand tall, holding a dumbbell in each hand. With your chest up and core braced, take a big step forwards with your left leg and lunge down until both knees are bent at 90°. Push off your front foot to return to the start, then repeat with your right leg. Alternate your leading leg with each rep." />
         </LinearLayout>
     </ScrollView>

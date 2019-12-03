@@ -36,6 +36,7 @@
                 android:id="@+id/hangingKneeRaiseDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="This slightly easier variation on the hanging leg raise still puts a lot of pressure on your lower abs. Start in a dead hang and raise your knees powerfully to activate more of the muscle fibres in the lower abs. Lower back to the start under control to prevent swinging." />
         </LinearLayout>
     </ScrollView>

@@ -37,6 +37,7 @@
                 android:id="@+id/deadliftDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand tall with the barbell in front of you, then squat down and grasp it with an overhand grip. Keeping your chest up and core braced, press down through your heels to stand up. Push your hips forwards at the top, then lower." />
         </LinearLayout>
     </ScrollView>

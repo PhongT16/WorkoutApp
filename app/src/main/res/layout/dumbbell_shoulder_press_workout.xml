@@ -36,6 +36,7 @@
                 android:id="@+id/dumbbellShoulderTagDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Hold the dumbbells by your shoulders with your palms facing forwards and your elbows out to the sides and bent at a 90° angle. Without leaning back, extend through your elbows to press the weights above your head. Then slowly return to the starting position." />
         </LinearLayout>
     </ScrollView>

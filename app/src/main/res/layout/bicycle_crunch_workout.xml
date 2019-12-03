@@ -37,6 +37,7 @@
                 android:id="@+id/BicycleCrunchDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Lie on your back with your hands by your temples and your legs raised with your knees bent at a 90° angle. Bring your right knee up towards your chest while raising your torso and twisting so your left elbow comes to meet your knee. Then lower and do the same on the opposite side. Keep your shoulders and feet off the ground to force your abs to work hard to stabilize your torso." />
         </LinearLayout>
     </ScrollView>

@@ -36,6 +36,7 @@
                 android:id="@+id/seatedLegExtensionDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Position yourself correctly with your knees bent and the padded bar against your shins. Raise your feet to straighten your legs, then squeeze your quads at the top. Lower back to the start position slowly to increase the tension on the target muscles." />
         </LinearLayout>
     </ScrollView>

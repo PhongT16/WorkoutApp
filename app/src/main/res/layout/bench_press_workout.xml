@@ -28,6 +28,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="15dp"
         android:text="Lie back on a flat bench with your eyes under the bar. Arch your back.
         Hold the bar with a shoulder-width grip and hold the bar straight over you. Breathe
         in and slowly bring the bar down until it touches your chest. Exhale as you push the

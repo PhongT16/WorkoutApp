@@ -27,8 +27,8 @@
     <Button
         android:id="@+id/chest"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="50dp"
-        android:layout_height="34dp"
+        android:layout_width="76dp"
+        android:layout_height="46dp"
         android:alpha="0"
         android:text="CHEST"
         android:visibility="visible"
@@ -37,25 +37,25 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/humanfront"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.27" />
 
     <Button
         android:id="@+id/leftShoulder"
-        android:layout_width="55dp"
-        android:layout_height="57dp"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
         android:alpha="0"
         android:text="left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/chest"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.26" />
 
     <Button
         android:id="@+id/rightShoulder"
-        android:layout_width="57dp"
-        android:layout_height="wrap_content"
+        android:layout_width="49dp"
+        android:layout_height="29dp"
         android:alpha="0"
         android:text="right"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/chest"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.263" />
 
     <Button
         android:id="@+id/abs"
@@ -73,10 +73,10 @@
         android:text="abs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chest"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/rightQuad"

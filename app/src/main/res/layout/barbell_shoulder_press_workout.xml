@@ -36,6 +36,7 @@
                 android:id="@+id/barbellShoulderPressDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Stand with your body upright and core muscles braced, looking straight ahead. Hold the bar on your upper chest, gripping it with hands just wider than shoulder-width apart. Press the bar directly overhead. Don't tilt your hips forward during the move." />
         </LinearLayout>
     </ScrollView>

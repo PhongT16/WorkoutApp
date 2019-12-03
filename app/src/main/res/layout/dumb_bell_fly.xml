@@ -37,6 +37,7 @@
                 android:id="@+id/dumbbellFlyDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Lie with your head and shoulders supported by the bench and your feet flat on the floor. Hold the dumbbells directly above your chest, palms facing each other, then lower the weights in an arc out to the sides as far as is comfortable. Use your pectoral muscles to reverse the movement back to the start. Keep a slight bend in your elbows throughout and don’t arch your back. " />
         </LinearLayout>
     </ScrollView>

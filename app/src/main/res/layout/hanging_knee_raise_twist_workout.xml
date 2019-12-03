@@ -36,6 +36,7 @@
                 android:id="@+id/hangingKneeRaiseTwistDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Start in a dead hang with your legs straight and knees together. Twist your body and raise your knees to one side, then return to the start. Continue, alternating sides." />
         </LinearLayout>
     </ScrollView>

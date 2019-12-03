@@ -36,6 +36,7 @@
                 android:id="@+id/plankDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Maintain a strict plank position, with your hips up, your glutes and core braced, and your head and neck relaxed. Breathing slowly and deeply, hold the position for as long as possible." />
         </LinearLayout>
     </ScrollView>

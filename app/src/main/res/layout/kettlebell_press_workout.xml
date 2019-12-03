@@ -36,6 +36,7 @@
                 android:id="@+id/kettlebellDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Start with the kettlebell in the rack position (the end position of a clean).
                 Make sure your elbow is tucked in to your chest, then press the weight directly up overhead.
                 Lower the weight by reversing the bell path and repeat the move." />

@@ -37,6 +37,7 @@
                 android:id="@+id/boxSquatDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="Get a box. Or a bench. Or a chair. Something you can sit down on. The lower it is the harder the exercise will be. For most, a 40cm-high box will allow you to squat deep enough for your glutes and hamstrings to become parallel with the floor. With your feet shoulder-width apart and toes pointed slightly outward if comfortable, lower your body until only your glutes rest on the box for 1-2sec. Squeeze the glutes and then return to the start position by driving through the heels and hips. Take extra care to keep your back straight and chest elevated. If you’re attempting this move using a loaded barbell, rest the bar on your upper traps, not your neck, and keep your elbows high throughout the move. This reduces the risk of injury and ensures better control of the bar. " />
         </LinearLayout>
     </ScrollView>

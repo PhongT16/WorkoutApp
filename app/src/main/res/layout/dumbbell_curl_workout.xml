@@ -28,5 +28,6 @@
         android:id="@+id/dumbbellCurlDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="15dp"
         android:text="Hold the dumbbells at your sides with your palms facing forwards. Bend at the elbow to curl the weights up to your chest. Don’t lean back and don’t swing the dumbbells as you’re using momentum to lift rather than your muscles. Correct that by fixing your elbows to your sides and keeping your upper arms still throughout the rep." />
 </LinearLayout>
