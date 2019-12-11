@@ -97,6 +97,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Vibrator headVibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
+        Button head = findViewById(R.id.head);
+        head.setOnClickListener(unused -> {
+            // Change the label's text
+            headVibrator.vibrate(500);
+            Intent intent = new Intent(this, Head.class);
+            startActivity(intent);
+        });
+
 
         // comment
     }

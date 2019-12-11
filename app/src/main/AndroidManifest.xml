@@ -78,6 +78,7 @@
         <activity android:name=".DumbbellSquat"/>
 
         <activity android:name=".Hamstring"/>
+        <activity android:name=".Head"/>
 
     </application>
 

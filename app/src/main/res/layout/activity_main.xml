@@ -186,4 +186,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/leftBicep" />
 
+    <Button
+        android:id="@+id/head"
+        android:layout_width="52dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="72dp"
+        android:alpha="0"
+        android:text="Head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/humanfront" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
