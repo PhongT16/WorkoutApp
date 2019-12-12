@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calvesWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:text="Calves Workout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/raisedCalfRaiseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raised Calf Raise" />
+
+            <Button
+                android:id="@+id/bentKneeCalfRaiseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bent-knee Calf Raise" />
+
+            <Button
+                android:id="@+id/seatedCalfRaiseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seated Calf Raise" />
+
+            <Button
+                android:id="@+id/singleLegCalfRaiseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single-leg Calf Raise" />
+
+            <Button
+                android:id="@+id/calfPressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calf Press" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -79,7 +79,13 @@
 
         <activity android:name=".Hamstring"/>
         <activity android:name=".Head"/>
-
+        
+    <activity android:name=".Calves"/>
+        <activity android:name=".RaisedCalfRaise"/>
+        <activity android:name=".BentKneeCalfRaise"/>
+        <activity android:name=".SeatedCalfRaise"/>
+        <activity android:name=".SingleLegCalfRaise"/>
+        <activity android:name=".CalfPress"/>
     </application>
 
 </manifest>

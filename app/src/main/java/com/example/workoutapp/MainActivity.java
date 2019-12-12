@@ -106,6 +106,26 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Vibrator leftCalvesVibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
+        Button leftCalve = findViewById(R.id.leftCalve);
+        leftCalve.setOnClickListener(unused -> {
+            // Change the label's text
+            leftCalvesVibrator.vibrate(500);
+            Intent intent = new Intent(this, Calves.class);
+            startActivity(intent);
+        });
+
+        Vibrator rightCalvesVibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
+        Button rightCalve = findViewById(R.id.rightCalve);
+        rightCalve.setOnClickListener(unused -> {
+            // Change the label's text
+            rightCalvesVibrator.vibrate(500);
+            Intent intent = new Intent(this, Calves.class);
+            startActivity(intent);
+        });
+
+
+
 
         // comment
     }
